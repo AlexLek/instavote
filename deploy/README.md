@@ -1,0 +1,1 @@
+Kubentes objects for deployment.
