@@ -1,7 +1,6 @@
 Example Voting (Instavote) App
 =========
 
-Add line.
 
 
 Getting started
