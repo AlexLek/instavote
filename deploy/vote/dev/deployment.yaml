@@ -1,10 +1,11 @@
 apiVersion: apps/v1
-  kind: Deployment
-  metadata:
-    creationTimestamp: null
-    labels:
-      app: vote
-    name: vote
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: vote
+    tier: front
+  name: vote
 spec:
   minReadySeconds: 20
   replicas: 3
