@@ -9,8 +9,15 @@ replicas:
 - name: vote
   count: 1
 images:
+<<<<<<< HEAD
 - name: schoolofdevops/vote
   newTag: main-b654c5d7-1758915028 #{"$imagepolicy":"flux-system:vote:tag"}
+=======
+  - name: schoolofdevops/vote
+    newName: alexlek/vote
+    newTag: v6 #{"$imagepolicy":"flux-system:vote:tag"}
+
+>>>>>>> 59a975e (change image tagname)
 namespace: instavote
 commonLabels:
   project: instavote
